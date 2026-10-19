@@ -1,15 +1,20 @@
 import os
-from union_find importa UnionFind
+
+from union_find import UnionFind
 from registros import Registro, normalizar, leer_registros
 from similitud import bigramas, dice, similitud
-from bloques import clave , armar_bloques
-from bloques import pares_por_bloques, todos_loos_pares
+from bloques import clave, armar_bloques
+from bloques import pares_por_bloques, todos_los_pares
 from deduplicador import Deduplicador
-from evaluacion import entidad, pares_de,evaluar
+from evaluacion import entidad, pares_de, evaluar
 from configuracion import DATASETS
-os.chdr(os.path.dirname(os.path.abspath(__file__)))
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 bien = 0
-mal= 0
+mal = 0
+
+
 def revisar(nombre, condicion):
     global bien, mal
     if condicion:

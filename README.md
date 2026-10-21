@@ -51,6 +51,14 @@ El proyecto se desarrolla mediante los siguientes componentes:
 
 ## Ejecución
 
+### En Google Colab (sin instalar Python)
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/datasari/Conjuntos-disjuntos-y-algoritmo-Union-Find/blob/main/demo_colab.ipynb)
+
+El cuaderno `demo_colab.ipynb` clona este repositorio y corre las pruebas, el menú y el experimento. Basta con ejecutar las celdas en orden con **Shift + Enter**; cuando el menú pida la opción, escribir **5** para procesar los cuatro datasets.
+
+### En el computador
+
 1. Clonar el repositorio.
 2. Abrir la carpeta del proyecto en el entorno de desarrollo.
 3. Verificar que los archivos de código y la carpeta `datos/` estén ubicados correctamente.
